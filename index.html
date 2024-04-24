@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/main.css" />
+		<link
+			rel="stylesheet"
+			href="./swiper/swiper-bundle.min.css"
+		/>
+	</head>
+	<body>
+		<!-- start -->
+
+		<!-- menu-->
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">gallery</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- end menu-->
+
+		<!-- swiper-->
+		<div class="slider">
+			<div class="swiper aliSwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="./images/slider1.jpg" alt="swiper"></div>
+					<div class="swiper-slide"><img src="./images/slider2.jpg" alt="swiper"></div>
+					<div class="swiper-slide"><img src="./images/slider3.webp" alt="swiper"></div>
+					<div class="swiper-slide"><img src="./images/slider4.jpg" alt="swiper"></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<!-- end swiper-->
+
+        <!-- product -->
+        <div class="products">
+
+            <div class="product">
+                <h1>Ali Special Pizza</h1>
+                <img src="./images/products/product1.jpg" alt="pizza">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptates animi alias maiores a sunt eum iure, quam fugiat vero!</p>
+                <div class="price">price : 10$</div>
+                <div class="rating">
+                    <span>count : 10 </span>
+                    <span>rate : 80% </span>
+                </div>
+                <div class="btn">buy</div>
+            </div>
+
+            
+            <div class="product">
+                <h1>Ali Special Pizza</h1>
+                <img src="./images/products/product1.jpg" alt="pizza">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptates animi alias maiores a sunt eum iure, quam fugiat vero!</p>
+                <div class="price">price : 10$</div>
+                <div class="rating">
+                    <span>count : 10 </span>
+                    <span>rate : 80% </span>
+                </div>
+                <div class="btn">buy</div>
+            </div>
+
+                        <div class="product">
+                <h1>Ali Special Pizza</h1>
+                <img src="./images/products/product1.jpg" alt="pizza">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptates animi alias maiores a sunt eum iure, quam fugiat vero!</p>
+                <div class="price">price : 10$</div>
+                <div class="rating">
+                    <span>count : 10 </span>
+                    <span>rate : 80% </span>
+                </div>
+                <div class="btn">buy</div>
+            </div>
+
+                        <div class="product">
+                <h1>Ali Special Pizza</h1>
+                <img src="./images/products/product1.jpg" alt="pizza">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptates animi alias maiores a sunt eum iure, quam fugiat vero!</p>
+                <div class="price">price : 10$</div>
+                <div class="rating">
+                    <span>count : 10 </span>
+                    <span>rate : 80% </span>
+                </div>
+                <div class="btn">buy</div>
+            </div>
+
+                        <div class="product">
+                <h1>Ali Special Pizza</h1>
+                <img src="./images/products/product1.jpg" alt="pizza">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptates animi alias maiores a sunt eum iure, quam fugiat vero!</p>
+                <div class="price">price : 10$</div>
+                <div class="rating">
+                    <span>count : 10 </span>
+                    <span>rate : 80% </span>
+                </div>
+                <div class="btn">buy</div>
+            </div>
+
+        </div>
+        <!-- end product -->
+
+		<!-- end -->
+	</body>
+
+	<script src="./swiper/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper(".aliSwiper", {
+			spaceBetween: 0,
+			centeredSlides: true,
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
+</html>
